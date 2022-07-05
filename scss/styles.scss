@@ -7,30 +7,32 @@
 @import "../partials/footer";
 
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Dosis', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Dosis", sans-serif;
 }
 
-ul,ol,li {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 p {
-    margin: 0;
+  margin: 0;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .btn {
-    font: inherit;
-    border: none;
-    color: $color-white;
-    background: $color-primary;
-    cursor: pointer;
+  font: inherit;
+  border: none;
+  color: $color-white;
+  background: $color-primary;
+  cursor: pointer;
 }

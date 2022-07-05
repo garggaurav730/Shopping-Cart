@@ -1,0 +1,38 @@
+// Side Menu css
+.prod-wrapper {
+  display: flex;
+  height: 100%;
+  aside {
+    flex: 1 0 20%;
+    background-color: $color-light;
+    & .prod-menu {
+      &-items {
+        li {
+          border-bottom: 2px solid rgba($color: $color-gray, $alpha: 0.2);
+          a {
+            display: block;
+            padding: 0.8rem;
+            color: $color-dark;
+          }
+        }
+      }
+    }
+  }
+  select {
+    display: none;
+  }
+  main {
+    overflow-y: auto;
+    flex: 1 0 80%;
+    margin: 0px auto;
+  }
+}
+//side menu for mobiles
+@media (max-width: 600px) {
+  .prod-wrapper {
+    flex-direction: column;
+    aside {
+      display: none;
+    }
+  }
+}
